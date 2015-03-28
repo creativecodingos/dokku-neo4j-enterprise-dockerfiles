@@ -6,4 +6,4 @@ if [ "$limit" -lt 65536 ]; then
 fi
 
 # Start Neo4j with our configuration
-/var/neo4j-enterprise-2.2.0/bin/neo4j console
+/var/neo4j/bin/neo4j console
