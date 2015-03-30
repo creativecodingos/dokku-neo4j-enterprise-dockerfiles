@@ -20,3 +20,4 @@ RUN sed -i 's@online_backup_server=127.0.0.1:6362@online_backup_server=0.0.0.0:6
 ADD . /bin
 
 RUN chmod +x /bin/start_neo4j.sh
+RUN chmod +x /bin/purge_data.sh
