@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER giacomo "giacomo@creativecoding.it"
+MAINTAINER Giacomo Triggiano "giacomo@creativecoding.it"
 
 RUN apt-get update
 RUN apt-get install -y openjdk-7-jre
