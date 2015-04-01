@@ -24,3 +24,5 @@ ADD . /bin
 
 RUN chmod +x /bin/start_neo4j.sh
 RUN chmod +x /bin/purge_data.sh
+
+CMD ["/bin/start_neo4j.sh"]
